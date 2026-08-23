@@ -110,20 +110,20 @@ export const skills = [
 ];
 
 export const experiences = [
-    {
-        title: "Backend Developer",
-        organization: "Freelance Project",
-        project: "Restro",
-        icon: github,
-        iconBg: "#dbeafe",
-        date: "2026 - Present",
-        points: [
-            "Developed a daily sales report feature for Restro, a restaurant management application.",
-            "Implemented automated generation of sales reports after each 24-hour sales cycle for daily revenue analysis.",
-            "Used a cron job to automatically delete generated reports after 24 hours, ensuring temporary report data is cleaned up automatically.",
-            "Worked on backend logic for processing sales data and managing the report generation and cleanup lifecycle.",
-        ],
-    },
+    // {
+    //     title: "Backend Developer",
+    //     organization: "Freelance Project",
+    //     project: "Restro",
+    //     icon: github,
+    //     iconBg: "#dbeafe",
+    //     date: "2026 - Present",
+    //     points: [
+    //         "Developed a daily sales report feature for Restro, a restaurant management application.",
+    //         "Implemented automated generation of sales reports after each 24-hour sales cycle for daily revenue analysis.",
+    //         "Used a cron job to automatically delete generated reports after 24 hours, ensuring temporary report data is cleaned up automatically.",
+    //         "Worked on backend logic for processing sales data and managing the report generation and cleanup lifecycle.",
+    //     ],
+    // },
     {
         title: "Event Coordinator",
         organization: "KNIT Startup Council — IISF",
@@ -164,7 +164,7 @@ export const projects = [
         theme: "btn-back-green",
         name: "Wanderlust",
         description:
-            "An Airbnb-inspired full-stack travel listing platform built with Node.js, Express.js, MongoDB and EJS. Features authentication, CRUD operations, reviews, image uploads, geocoding and interactive maps.",
+            "A full-stack travel and property listing platform built on MVC architecture. Features secure authentication, dynamic CRUD listing management, Cloudinary image hosting, interactive Leaflet maps, and Geoapify geocoding.",
         link: "https://github.com/palaksrivastava2311/Wanderlust",
     },
     {
@@ -172,23 +172,23 @@ export const projects = [
         theme: "btn-back-blue",
         name: "3D Portfolio",
         description:
-            "A modern 3D developer portfolio built with React and Three.js to showcase my skills, projects and experience through interactive 3D elements and responsive design.",
+            "An interactive web portfolio featuring real-time 3D graphics, dynamic camera movements, and modern animations built with React, Three.js, and Tailwind CSS.",
         link: "https://github.com/palaksrivastava2311/Portfolio",
     },
     {
         iconUrl: threads,
         theme: "btn-back-pink",
-        name: "Spotify Clone",
+        name: "Nova",
         description:
-            "A Spotify-inspired music streaming interface built to practice responsive frontend development, modern UI design and interactive web experiences.",
-        link: "YOUR_SPOTIFY_GITHUB_URL",
+            "A full-stack AI conversational platform powered by the OpenAI API, featuring real-time streaming responses, persistent chat history, and secure backend integration.",
+        link: "https://github.com/palaksrivastava2311/Nova",
     },
     {
         iconUrl: snapgram,
         theme: "btn-back-yellow",
-        name: "Photography Website",
+        name: "Weather App",
         description:
-            "A responsive photography website focused on visual presentation, clean layouts and modern frontend design.",
-        link: "https://github.com/palaksrivastava2311/photography-site",
+            "A responsive weather web app delivering real-time forecasts, temperature metrics, and location-based meteorological data using external weather APIs.",
+        link: "https://github.com/palaksrivastava2311/Weather-App",
     },
 ];
