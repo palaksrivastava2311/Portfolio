@@ -24,22 +24,21 @@ const renderContent = {
     ),
     2: (
         <InfoBox
-            text="worked with many companies and picked up many skills along the way"
+            text="Experienced in building robust backend architectures, APIs, and dynamic full-stack applications."
             link="/about"
             btnText="Learn more"
         />
     ),
     3: (
         <InfoBox
-        text="led multiple projects to success over the years. Curious about the impacts?"
+        text="Delivered end-to-end full-stack platforms and responsive web solutions. Explore my featured work below."
         link="/projects"
         btnText="Visit my portfolio"
     />
     ),
     4: (
         <InfoBox
-        text="Need a project done or looking for a dev? I'm just a few 
-        keystrokes away"
+        text="Open for full-stack engineering roles, freelance projects, and collaborations. Let's connect!"
         link="/contact"
         btnText="Let's talk"
     />

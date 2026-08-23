@@ -12,7 +12,7 @@
 import React, { useRef, useEffect } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 
-import scene from "../assets/3d/fox.glb";
+import scene from "../assets/3D/fox.glb";
 
 // 3D Model from: https://sketchfab.com/3d-models/fox-f372c04de44640fbb6a4f9e4e5845c78
 export function Fox({ currentAnimation, ...props }) {
